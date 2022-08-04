@@ -5,7 +5,7 @@
 For more information, we can visit the following websits:
 
 - [the homepage of FusionPortable-VSLAM Challenge](http://aiskyeye.com/challenge-2022/visual-slam/)
-- [[the homepage of FusionPortable Dataset](https://ram-lab.com/vslam_dataset/)
+- [the homepage of FusionPortable Dataset](https://ram-lab.com/vslam_dataset/)
 - [the homepage of PRCV Aerial-Ground Intelligent Unmanned System Environment Perception Challenge](http://aiskyeye.com/)
 - [challenge introduction on wechat platform](https://mp.weixin.qq.com/s/p1xEpLVKwcI0p37hxe3c7w)
 
@@ -20,6 +20,21 @@ For more information, we can visit the following websits:
 - [see here for detailed information](doc/vslam_evaluation.md)
 
 # Download
+
+### Test Sequences
+
+| Platform |      | Sequence            | Compressed Bag                                               |
+| -------- | ---- | ------------------- | ------------------------------------------------------------ |
+| Handheld |      | 20220216_garden_day | [20.4GB](http://prcv-download.natapp1.cc/compressed/20220216_garden_day.bag) |
+
+#### Calibration Sequences
+
+| Platform |      | Sequence | Compressed Bag |
+| -------- | ---- | -------- | -------------- |
+| Handheld |      |          |                |
+
+
+#### Challenge Sequences
 
 | Platform        |                                                              | Sequence               | Compressed Bag                                               |
 | --------------- | ------------------------------------------------------------ | ---------------------- | ------------------------------------------------------------ |
