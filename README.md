@@ -51,9 +51,9 @@ For more information, we can visit the following websits:
 
 ### Calibration Sequences
 
-| Platform |      | Sequence | Compressed Bag |
-| -------- | ---- | -------- | -------------- |
-| Handheld |      |          |                |
+| Platform |      | Sequence             | Compressed Bag |
+| -------- | ---- | -------------------- | -------------- |
+| Handheld |      | **comming soon!!!!** |                |
 
 
 ### Challenge Sequences
