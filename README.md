@@ -76,6 +76,14 @@ Of course, we will provide the calibration data of IMU and cameras.
 
 We will provide some sample datasets along with their ground truth collected with the same sensor kit, but the ground truth for the challenge sequences is not available. However, you can submit your own results in the website evaluation system for evaluation.
 
+### Notice
+
+**A team can only register one account.** **Quota can only be obtained by joining the WeChat group**.
+
+In order to prevent the problem of a team registering multiple accounts, this competition requires **all members** of the participating team to **join the WeChat group**. If the QR code is invalid, we will update it in time. And **the old account cannot be used, you need to re-register a new account**.
+
+<img src="README/%E6%9D%A5%E8%87%AA%20iOS%20%E7%9A%84%E5%9B%BE%E5%83%8F.jpg" alt="来自 iOS 的图像" style="zoom:50%;" />
+
 ## Reference
 
 *[1] Jianhao Jiao, Hexiang Wei, Tianshuai Hu, Xiangcheng Hu, etc., Lujia Wang, Ming Liu, FusionPortable: A Multi-Sensor Campus-Scene Dataset for Evaluation of Localization and Mapping Accuracy on Diverse Platforms, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2022, Kyoto, Japan.*
