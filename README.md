@@ -14,10 +14,18 @@ For more information, we can visit the following websits:
 <img src="doc/figure/multivehicle.png" alt="multivehicle" style="zoom: 67%;" />
 
 * This visual [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) benchmark is based on the [FusionPortable dataset](https://ram-lab.com/file/site/multi-sensor-dataset), which covers a variety of environments in [The Hong Kong University of Science and Technology](https://hkust.edu.hk) campus by utilizing multiple platforms for data collection. It provides a large range of difficult scenarios for Simultaneous Localization and Mapping (SLAM). 
-* All these sequences are characterized by structure-less areas and varying illumination conditions to best represent the real-world scenarios and pose great challenges to the SLAM algorithms which were verified in confined lab environments. Accurate centimeter-level ground truth of each sequence is provided for algorithm verification. Sensor data contained in the dataset includes *10Hz* LiDAR point clouds, *20Hz* stereo frame images, high-rate and asynchronous events from stereo event cameras, *200Hz* acceleration and angular velocity readings from an IMU, and *10Hz* GPS signals in the outdoor environments. 
-* Sensors are spatially and temporally calibrated.
+* All these sequences are characterized by structure-less areas and varying illumination conditions to best represent the real-world scenarios and pose great challenges to the SLAM algorithms which were verified in confined lab environments. 
 
-- [see here for detailed information](doc/vslam_evaluation.md)
+| Sensor                      | Characteristics                            |
+| --------------------------- | ------------------------------------------ |
+| 3D LiDAR (**not provided**) | Ouster OS1-128, 128 channels, 120m range   |
+| Frame Camera * 2            | FILR BFS-U3-31S4C， resolution: 1024 × 768 |
+| Event Camera * 2            | DAVIS346, resolution: 346 × 240            |
+| IMU (body_imu)              | STIM300                                    |
+| GPS                         | ZED-F9P RTK-GPS                            |
+| Ground Truth                | Leica BLK 360                              |
+
+[see here for detailed information](doc/vslam_evaluation.md)
 
 # Download
 
@@ -82,7 +90,7 @@ We will provide some sample datasets along with their ground truth collected wit
 
 In order to prevent the problem of a team registering multiple accounts, this competition requires **all members** of the participating team to **join the WeChat group**. If the QR code is invalid, we will update it in time. And **the old account cannot be used, you need to re-register a new account**.
 
-<img src="README/%E6%9D%A5%E8%87%AA%20iOS%20%E7%9A%84%E5%9B%BE%E5%83%8F.jpg" alt="来自 iOS 的图像" style="zoom:50%;" />
+![image-20220805015051982](README/image-20220805015051982.png)
 
 ## Reference
 
