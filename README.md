@@ -13,14 +13,14 @@ For more information, we can visit the following websits:
 
 <img src="doc/figure/multivehicle.png" alt="multivehicle" style="zoom: 67%;" />
 
-| Sensor                      | Characteristics                            |
-| --------------------------- | ------------------------------------------ |
-| 3D LiDAR (**not provided**) | Ouster OS1-128, 128 channels, 120m range   |
-| Frame Camera * 2            | FILR BFS-U3-31S4C， resolution: 1024 × 768 |
-| Event Camera * 2            | DAVIS346, resolution: 346 × 240            |
-| IMU (body_imu)              | STIM300                                    |
-| GPS                         | ZED-F9P RTK-GPS                            |
-| Ground Truth                | Leica BLK 360                              |
+| Sensor                      | Characteristics                                 |
+| --------------------------- | ----------------------------------------------- |
+| 3D LiDAR (**not provided**) | Ouster OS1-128, 128 channels, 120m range        |
+| Frame Camera * 2            | FILR BFS-U3-31S4C， resolution: 1024 × 768      |
+| Event Camera * 2            | DAVIS346, resolution: 346 × 240，2 built-in imu |
+| IMU (body_imu)              | STIM300                                         |
+| GPS                         | ZED-F9P RTK-GPS                                 |
+| Ground Truth                | Leica BLK 360                                   |
 
 * This visual [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) benchmark is based on the [FusionPortable dataset](https://ram-lab.com/file/site/multi-sensor-dataset), which covers a variety of environments in [The Hong Kong University of Science and Technology](https://hkust.edu.hk) campus by utilizing multiple platforms for data collection. It provides a large range of difficult scenarios for Simultaneous Localization and Mapping (SLAM). 
 * All these sequences are characterized by structure-less areas and varying illumination conditions to best represent the real-world scenarios and pose great challenges to the SLAM algorithms which were verified in confined lab environments. 
@@ -29,34 +29,34 @@ For more information, we can visit the following websits:
 
 # Download
 
-### Calibration files
+## Calibration files
 
-| Yaml Files      | Describtion                                                  | Link                                                         |
-| --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| body_imu        | extrinsics from the sensor (reference) to the motion capture marker | [body_imu.yaml](http://prcv-download.natapp1.cc/calib/body_imu.yaml) |
-| event_cam00     | extrinsics and intrinsics of the left event camera           | [event_cam00.yaml](http://prcv-download.natapp1.cc/calib/event_cam00.yaml) |
-| event_cam00_imu | extrinsics and intrinsics of the left event camera imu       | [event_cam00_imu.yaml](http://prcv-download.natapp1.cc/calib/event_cam00_imu.yaml) |
-| event_cam01     | extrinsics and intrinsics of the right event camera          | [event_cam01.yaml](http://prcv-download.natapp1.cc/calib/event_cam01.yaml) |
-| event_cam01_imu | extrinsics and intrinsics of the right event camera imu      | [event_cam01_imu.yaml](http://prcv-download.natapp1.cc/calib/event_cam01_imu.yaml) |
-| frame_cam00     | extrinsics and intrinsics of the left flir camera            | [frame_cam00.yaml](http://prcv-download.natapp1.cc/calib/frame_cam00.yaml) |
-| frame_cam01     | extrinsics and intrinsics of the right flir camera           | [frame_cam01.yaml](http://prcv-download.natapp1.cc/calib/frame_cam01.yaml) |
-| ouster00        | extrinsics and intrinsics of the ouster lidar                | [ouster00.yaml](http://prcv-download.natapp1.cc/calib/ouster00.yaml) |
-| ouster00_imu    | extrinsics and intrinsics of the ouster imu                  | [ouster00_imu.yaml](http://prcv-download.natapp1.cc/calib/ouster00_imu.yaml) |
+| Yaml Files      | Describtion                                             | Link                                                         |
+| --------------- | ------------------------------------------------------- | ------------------------------------------------------------ |
+| body_imu        | extrinsics and intrinsics of the STIM300                | [body_imu.yaml](http://prcv-download.natapp1.cc/calib/body_imu.yaml) |
+| event_cam00     | extrinsics and intrinsics of the left event camera      | [event_cam00.yaml](http://prcv-download.natapp1.cc/calib/event_cam00.yaml) |
+| event_cam00_imu | extrinsics and intrinsics of the left event camera imu  | [event_cam00_imu.yaml](http://prcv-download.natapp1.cc/calib/event_cam00_imu.yaml) |
+| event_cam01     | extrinsics and intrinsics of the right event camera     | [event_cam01.yaml](http://prcv-download.natapp1.cc/calib/event_cam01.yaml) |
+| event_cam01_imu | extrinsics and intrinsics of the right event camera imu | [event_cam01_imu.yaml](http://prcv-download.natapp1.cc/calib/event_cam01_imu.yaml) |
+| frame_cam00     | extrinsics and intrinsics of the left flir camera       | [frame_cam00.yaml](http://prcv-download.natapp1.cc/calib/frame_cam00.yaml) |
+| frame_cam01     | extrinsics and intrinsics of the right flir camera      | [frame_cam01.yaml](http://prcv-download.natapp1.cc/calib/frame_cam01.yaml) |
+| ouster00        | extrinsics and intrinsics of the ouster lidar           | [ouster00.yaml](http://prcv-download.natapp1.cc/calib/ouster00.yaml) |
+| ouster00_imu    | extrinsics and intrinsics of the ouster imu             | [ouster00_imu.yaml](http://prcv-download.natapp1.cc/calib/ouster00_imu.yaml) |
 
-### Test Sequences
+## Test Sequences
 
 | Platform |                                                              | Sequence            | Compressed Bag                                               |
 | -------- | ------------------------------------------------------------ | ------------------- | ------------------------------------------------------------ |
 | Handheld | <img src="doc/figure/garden.png" alt="Garden" style="zoom:25%;" /> | 20220216_garden_day | [20.4GB](http://prcv-download.natapp1.cc/compressed/20220216_garden_day.bag) |
 
-### Calibration Sequences
+## Calibration Sequences
 
-| Platform |      | Sequence             | Compressed Bag |
-| -------- | ---- | -------------------- | -------------- |
-| Handheld |      | **comming soon!!!!** |                |
+| Platform |                                                              | Sequence             | Compressed Bag |
+| -------- | ------------------------------------------------------------ | -------------------- | -------------- |
+| Handheld | <img src="doc/figure/mcr.png" alt="Motion Capture Room" style="zoom:23%;" /> | **comming soon!!!!** |                |
 
 
-### Challenge Sequences
+## Challenge Sequences
 
 | Platform        |                                                              | Sequence               | Compressed Bag                                               |
 | --------------- | ------------------------------------------------------------ | ---------------------- | ------------------------------------------------------------ |
@@ -98,7 +98,7 @@ Of course, we will provide the calibration data of IMU and cameras.
 
 We will provide some sample datasets along with their ground truth collected with the same sensor kit, but the ground truth for the challenge sequences is not available. However, you can submit your own results in the website evaluation system for evaluation.
 
-### Notice
+# Notice
 
 **A team can only register one account.** **Quota can only be obtained by joining the WeChat group**.
 
