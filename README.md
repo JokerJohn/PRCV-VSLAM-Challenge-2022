@@ -104,7 +104,7 @@ We will provide some sample datasets along with their ground truth collected wit
 
 In order to prevent the problem of a team registering multiple accounts, this competition requires **all members** of the participating team to **join the WeChat group**. If the QR code is invalid, we will update it in time. And **the old account cannot be used, you need to re-register a new account**.
 
-![image-20220805015051982](README/image-20220805015051982.png)
+![image-20220805015051982](README/qr_code.jpg)
 
 ## Reference
 
