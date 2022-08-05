@@ -26,7 +26,7 @@ For more information, we can visit the following websits:
 * All these sequences are characterized by structure-less areas and varying illumination conditions to best represent the real-world scenarios and pose great challenges to the SLAM algorithms which were verified in confined lab environments. 
 
 - [see here for detailed information of the challenge](doc/vslam_evaluation.md)
-- [see here for the IROS paper of FusionPortable dataset ](doc/IROS22_1456_FI.pdf)
+- [see here for the IROS paper of FusionPortable dataset [1]](doc/IROS22_1456_FI.pdf)
 
 # Download
 
