@@ -42,7 +42,6 @@ For more information, we can visit the following websits:
 | event_cam01_imu | extrinsics and intrinsics of the right event camera imu | [event_cam01_imu.yaml](http://prcv-download.natapp1.cc/calib/event_cam01_imu.yaml) |
 | frame_cam00     | extrinsics and intrinsics of the left flir camera       | [frame_cam00.yaml](http://prcv-download.natapp1.cc/calib/frame_cam00.yaml) |
 | frame_cam01     | extrinsics and intrinsics of the right flir camera      | [frame_cam01.yaml](http://prcv-download.natapp1.cc/calib/frame_cam01.yaml) |
-| ouster00_imu    | extrinsics and intrinsics of the ouster imu             | [ouster00_imu.yaml](http://prcv-download.natapp1.cc/calib/ouster00_imu.yaml) |
 
 ## Test Sequences
 
