@@ -25,7 +25,8 @@ For more information, we can visit the following websits:
 * This visual [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) benchmark is based on the [FusionPortable dataset](https://ram-lab.com/file/site/multi-sensor-dataset), which covers a variety of environments in [The Hong Kong University of Science and Technology](https://hkust.edu.hk) campus by utilizing multiple platforms for data collection. It provides a large range of difficult scenarios for Simultaneous Localization and Mapping (SLAM). 
 * All these sequences are characterized by structure-less areas and varying illumination conditions to best represent the real-world scenarios and pose great challenges to the SLAM algorithms which were verified in confined lab environments. 
 
-- [see here for detailed information](doc/vslam_evaluation.md)
+- [see here for detailed information of the challenge](doc/vslam_evaluation.md)
+- [see here for the IROS paper of FusionPortable dataset ](doc/IROS22_1456_FI.pdf)
 
 # Download
 
