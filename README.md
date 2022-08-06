@@ -29,6 +29,54 @@ For more information, we can visit the following websits:
 - [see here for detailed information of the challenge](doc/vslam_evaluation.md)
 - [see here for the IROS paper of FusionPortable dataset [1]](doc/FusionPortable_IROS_2022.pdf)
 
+# Evaluation
+
+* The submission will be ranked based on the **completeness** and **frequency** of the trajectory as well as on the **position accuracy (ATE)**. The score is based on the ATE of individual points on the trajectory. Points with the error smaller than a distance threshold are added to your final score. This evaluation scheme is inspired by [HILTI Challenge](https://www.hilti-challenge.com/index.html).
+
+* Output trajectories should be transformed into the *body_imu* frame, We will align the trajectory with the dense ground truth points using a rigid transformation. Then the Absolute Trajectory Error (ATE) of a set of discrete point is computed. At each ground truth point, extra penalty points are added to the final score depending on the amount of error at this point:
+
+  | Error    | Score (points) |
+  | -------- | -------------- |
+  | <= 5cm   | 10             |
+  | <= 30cm  | 6              |
+  | <= 50cm  | 3              |
+  | <= 100cm | 1              |
+  | > 100cm  | 0              |
+
+* Each sequence will be evaluated over a maximum of 200 points, which leads to a maximum of  $N\times 200$ points being evaluated among $N$ sequences.
+
+**Given an example:**
+
+<img src="README/evaluation_example.png" style="zoom: 67%;" />
+
+<img src="README/error_example.png" alt="" style="zoom: 67%;" />
+
+# Submission Guidelines
+
+* Trajectory Results
+
+  * Please upload a .zip file consisting of a list of text files named as the *sequence name* shown as follows:
+
+  ```
+  20220215_canteen_night.txt
+  20220215_garden_night.txt
+  20220219_MCR_slow_00.txt
+  20220226_campus_road_day.txt
+  ....
+  ```
+
+  * The text files should have the following contents:
+
+  ```
+  1644928761.036623716 0.0 0.0 0.0 0.0 0.0 0.0 1.0
+  ....
+  ```
+
+  Each row contains *timestamp_s tx ty tz qx qy qz qw*. The timestamps are in the unit of second which are used to establish temporal correspondences with the groundtruth. The first pose should be no later than the starting time specified above, and only poses after the starting time will be used for evaluation.
+
+  * The poses should specify the poses of the body IMU in the world frame. If the estimated poses are in the frame of other sensors, one should transform these poses into the world frame of the body IMU as `T_bodyw_body = T_body_sensor * T_sensorw_sensor * T_body_sensor^(-1);`.
+
+* Do not publicly release your trajectory estimates, as we might re-use some of the datasets for future competitions.
 
 # Download
 
@@ -96,7 +144,7 @@ The picture below is a schematic illustration of the reference frames (red = x, 
 
 - **How are the results scored?**
 
-The results submitted by each team will be scored based on the completeness and ATE accuracy of the trajectories. All the results will be displayed in  the live leaderboard. Each trajectory will be scored based on the standard evaluation points, the accumulation of the scores of all these evaluation points is normalized to 100 points to get the final score of the sequence. Each evaluation point can get 0-10 points according to its accuracy.
+The results submitted by each team will be scored based on the completeness and ATE accuracy of the trajectories. All the results will be displayed in  the live leaderboard. Each trajectory will be scored based on the standard evaluation points, the accumulation of the scores of all these evaluation points is normalized to 200 points to get the final score of the sequence. Each evaluation point can get 0-10 points according to its accuracy.
 
 - **Will the organizer provide the calibration datasets of the IMU and camera?**
 
