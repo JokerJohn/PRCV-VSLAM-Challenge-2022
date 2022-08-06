@@ -31,6 +31,13 @@ For more information, we can visit the following websits:
 
 # Download
 
+We provide the compressed rosbag data, remember to execute the following command to decompress them.
+
+```bash
+# example: 20220216_garden_day_ref_compressed
+rosbag decompress 20220216_garden_day.bag
+```
+
 ## Calibration files
 
 | Yaml Files      | Describtion                                             | Link                                                         |
