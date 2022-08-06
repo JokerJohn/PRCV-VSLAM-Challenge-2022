@@ -4,8 +4,9 @@
 
 For more information, we can visit the following websits:
 
-- [homepage of FusionPortable-VSLAM Challenge](http://aiskyeye.com/challenge-2022/visual-slam/)
 - [homepage of FusionPortable Dataset](https://ram-lab.com/vslam_dataset/)
+
+- [homepage of FusionPortable-VSLAM Challenge](http://aiskyeye.com/challenge-2022/visual-slam/)
 - [homepage of PRCV Aerial-Ground Intelligent Unmanned System Environment Perception Challenge](http://aiskyeye.com/)
 - [Introduction of PRCV challenge on Wexin Official Accounts Platform](https://mp.weixin.qq.com/s/p1xEpLVKwcI0p37hxe3c7w)
 

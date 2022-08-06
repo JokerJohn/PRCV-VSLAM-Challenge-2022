@@ -1,20 +1,35 @@
-## Overview
+# Overview
 
-* This visual [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) benchmark is based on the [FusionPortable dataset](https://ram-lab.com/file/site/multi-sensor-dataset), which covers a variety of environments in [The Hong Kong University of Science and Technology](https://hkust.edu.hk) campus by utilizing multiple platforms for data collection. It provides a large range of difficult scenarios for Simultaneous Localization and Mapping (SLAM). 
+* This visual [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) benchmark is based on the **FusionPortable** dataset, which covers a variety of environments in [The Hong Kong University of Science and Technology](https://hkust.edu.hk) campus by utilizing multiple platforms for data collection. It provides a large range of difficult scenarios for Simultaneous Localization and Mapping (SLAM). 
+
 * All these sequences are characterized by structure-less areas and varying illumination conditions to best represent the real-world scenarios and pose great challenges to the SLAM algorithms which were verified in confined lab environments. Accurate centimeter-level ground truth of each sequence is provided for algorithm verification. Sensor data contained in the dataset includes *10Hz* LiDAR point clouds, *20Hz* stereo frame images, high-rate and asynchronous events from stereo event cameras, *200Hz* acceleration and angular velocity readings from an IMU, and *10Hz* GPS signals in the outdoor environments. 
+
 * Sensors are spatially and temporally calibrated.
 
-## Hardware
+* For more information, we can visit the following websits:
 
-* The sensors are mounted rigidly on an aluminium platform for handheld operation. An FPGA is utilized to generate an external signal trigger to synchronize clocks of all sensors. We install the sensor rig on various platforms to simulate distinguishable motions of different equipments, including a handheld device with a gimbal stabilizer, a quadruped robot, and an autonomous vehicle. 
+  - [Github Repo for FusionPortable-VSLAM Challenge](https://github.com/JokerJohn/PRCV-VSLAM-Challenge-2022/)
 
-| Sensor                      | Characteristics                            |
-| --------------------------- | ------------------------------------------ |
-| 3D LiDAR (**not provided**) | Ouster OS1-128, 128 channels, 120m range   |
-| Frame Camera * 2            | FILR BFS-U3-31S4C， resolution: 1024 × 768 |
-| Event Camera * 2            | DAVIS346, resolution: 346 × 240            |
-| IMU (body_imu)              | STIM300                                    |
-| GPS                         | ZED-F9P RTK-GPS                            |
+  - [homepage of FusionPortable Dataset](https://ram-lab.com/vslam_dataset/)
+
+  - [homepage of FusionPortable-VSLAM Challenge](http://aiskyeye.com/challenge-2022/visual-slam/)
+
+  - [homepage of PRCV Aerial-Ground Intelligent Unmanned System Environment Perception Challenge](http://aiskyeye.com/)
+  
+  - [Introduction of PRCV challenge on Wexin Official Accounts Platform](https://mp.weixin.qq.com/s/p1xEpLVKwcI0p37hxe3c7w)
+
+ # Hardware
+
+ The sensors are mounted rigidly on an aluminium platform for handheld operation. An FPGA is utilized to generate an external signal trigger to synchronize clocks of all sensors. We install the sensor rig on various platforms to simulate distinguishable motions of different equipments, including a handheld device with a gimbal stabilizer, a quadruped robot, and an autonomous vehicle. 
+
+ | Sensor                      | Characteristics                                 |
+  | --------------------------- | ----------------------------------------------- |
+  | 3D LiDAR (**not provided**) | Ouster OS1-128, 128 channels, 120m range        |
+  | Frame Camera * 2            | FILR BFS-U3-31S4C， resolution: 1024 × 768      |
+  | Event Camera * 2            | DAVIS346, resolution: 346 × 240，2 built-in imu |
+  | IMU (body_imu)              | STIM300                                         |
+  | GPS                         | ZED-F9P RTK-GPS                                 |
+  | Ground Truth                | Leica BLK 360                                   |
 
 <img src="figure/multivehicle.png" alt="multivehicle" style="zoom: 67%;" />
 
@@ -48,7 +63,7 @@
 
   Rotational and translational calibration parameters from the camera (reference frame) to the IMU (target frame) are presented in the form of the Hamilton quaternion (*[qw, qx, qy, qz]*) and the translation vector (*[tx, ty, tz]*). The timeshift is obtained by the Kalibr.
 
-## Evaluation
+# Evaluation
 
 * The submission will be ranked based on the **completeness** and **frequency** of the trajectory as well as on the **position accuracy (ATE)**. The score is based on the ATE of individual points on the trajectory. Points with the error smaller than a distance threshold are added to your final score. This evaluation scheme is inspired by [HILTI Challenge](https://www.hilti-challenge.com/index.html).
 
@@ -70,7 +85,7 @@
 
 <img src="figure/error_example.png" alt="" style="zoom: 67%;" />
 
-## Submission Guidelines
+# Submission Guidelines
 
 * Trajectory Results
 
@@ -97,7 +112,41 @@
 
 * Do not publicly release your trajectory estimates, as we might re-use some of the datasets for future competitions.
 
-## Sequence
+# Download
+
+We provide the compressed rosbag data, remember to execute the following command to decompress them.
+
+```bash
+# example: 20220216_garden_day_ref_compressed
+rosbag decompress 20220216_garden_day.bag
+```
+
+## Calibration files
+
+| Yaml Files      | Describtion                                             | Link                                                         |
+| --------------- | ------------------------------------------------------- | ------------------------------------------------------------ |
+| body_imu        | extrinsics and intrinsics of  STIM300                   | [body_imu.yaml](http://prcv-download.natapp1.cc/calib/body_imu.yaml) |
+| event_cam00     | extrinsics and intrinsics of the left event camera      | [event_cam00.yaml](http://prcv-download.natapp1.cc/calib/event_cam00.yaml) |
+| event_cam00_imu | extrinsics and intrinsics of the left event camera imu  | [event_cam00_imu.yaml](http://prcv-download.natapp1.cc/calib/event_cam00_imu.yaml) |
+| event_cam01     | extrinsics and intrinsics of the right event camera     | [event_cam01.yaml](http://prcv-download.natapp1.cc/calib/event_cam01.yaml) |
+| event_cam01_imu | extrinsics and intrinsics of the right event camera imu | [event_cam01_imu.yaml](http://prcv-download.natapp1.cc/calib/event_cam01_imu.yaml) |
+| frame_cam00     | extrinsics and intrinsics of the left flir camera       | [frame_cam00.yaml](http://prcv-download.natapp1.cc/calib/frame_cam00.yaml) |
+| frame_cam01     | extrinsics and intrinsics of the right flir camera      | [frame_cam01.yaml](http://prcv-download.natapp1.cc/calib/frame_cam01.yaml) |
+
+## Test Sequences
+
+| Platform |                                                              | Sequence            | Compressed Bag                                               |
+| -------- | ------------------------------------------------------------ | ------------------- | ------------------------------------------------------------ |
+| Handheld | <img src="figure/garden.png" alt="Garden" style="zoom:25%;" /> | 20220216_garden_day | [20.4GB](http://prcv-download.natapp1.cc/compressed/20220216_garden_day.bag) |
+
+## Calibration Sequences
+
+| Platform |                                                              | Sequence             | Compressed Bag |
+| -------- | ------------------------------------------------------------ | -------------------- | -------------- |
+| Handheld | <img src="figure/mcr.png" alt="Motion Capture Room" style="zoom:23%;" /> | **comming soon!!!!** |                |
+
+
+## Challenge Sequences
 
 | Platform        |                                                              | Sequence               | Compressed Bag                                               |
 | --------------- | ------------------------------------------------------------ | ---------------------- | ------------------------------------------------------------ |
@@ -125,7 +174,7 @@
 
 * Download link can be found [here](http://aiskyeye.com/download/fusionportable-vslam-2/)
 
-## FAQ
+# FAQ
 
 - **How are the frames defined on the sensor setup?**
 
@@ -145,6 +194,8 @@ Of course, we will provide the calibration data of IMU and cameras.
 
 We will provide some sample datasets along with their ground truth collected with the same sensor kit, but the ground truth for the challenge sequences is not available. However, you can submit your own results in the website evaluation system for evaluation.
 
-## Reference
+# Reference
 
 *[1] Jianhao Jiao, Hexiang Wei, Tianshuai Hu, Xiangcheng Hu, etc., Lujia Wang, Ming Liu, FusionPortable: A Multi-Sensor Campus-Scene Dataset for Evaluation of Localization and Mapping Accuracy on Diverse Platforms, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2022, Kyoto, Japan.*
+
+[2] [HILTI Challenge](https://www.hilti-challenge.com/index.html).
