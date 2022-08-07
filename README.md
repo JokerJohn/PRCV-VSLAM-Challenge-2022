@@ -31,6 +31,8 @@ For more information, we can visit the following websits:
 
 # Evaluation
 
+## method
+
 * The submission will be ranked based on the **completeness** and **frequency** of the trajectory as well as on the **position accuracy (ATE)**. The score is based on the ATE of individual points on the trajectory. Points with the error smaller than a distance threshold are added to your final score. This evaluation scheme is inspired by [HILTI Challenge](https://www.hilti-challenge.com/index.html).
 
 * Output trajectories should be transformed into the *body_imu* frame, We will align the trajectory with the dense ground truth points using a rigid transformation. Then the Absolute Trajectory Error (ATE) of a set of discrete point is computed. At each ground truth point, extra penalty points are added to the final score depending on the amount of error at this point:
@@ -50,6 +52,12 @@ For more information, we can visit the following websits:
 <img src="README/evaluation_example.png" style="zoom: 67%;" />
 
 <img src="README/error_example.png" alt="" style="zoom: 67%;" />
+
+## [leaderboard](http://aiskyeye.com/leaderboard/)
+
+Sign up for an account and submit your results in the evaluation system, the real-time leaderboard will update your ranking.
+
+![image-20220807203857498](README/image-20220807203857498.png)
 
 # Submission Guidelines
 
