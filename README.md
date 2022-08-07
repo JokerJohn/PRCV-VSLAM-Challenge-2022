@@ -117,7 +117,9 @@ rosbag decompress 20220216_garden_day.bag
 
 | Platform |                                                              | Sequence             | Compressed Bag |
 | -------- | ------------------------------------------------------------ | -------------------- | -------------- |
-| Handheld | <img src="doc/figure/mcr.png" alt="Motion Capture Room" style="zoom:23%;" /> | **comming soon!!!!** |                |
+| Handheld | <img src="doc/figure/Checkerboard_Small.png" alt="Motion Capture Room" style="zoom:23%;" /> | 20220209_StaticTarget_SmallCheckerBoard_9X12_30mm|                |
+| Handheld | <img src="doc/figure/Checkerboard_Big.png" alt="Motion Capture Room" style="zoom:23%;" /> | 20220215_DynamicTarget_BigCheckerBoard_7X10_68mm|                |
+| Handheld | <img src="doc/figure/allan.png" alt="Motion Capture Room" style="zoom:50%;" /> | **comming soon!!!!** |                |
 
 
 ## Challenge Sequences
