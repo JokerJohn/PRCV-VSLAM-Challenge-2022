@@ -119,7 +119,7 @@ rosbag decompress 20220216_garden_day.bag
 | -------- | ------------------------------------------------------------ | -------------------- | -------------- |
 | Handheld | <img src="doc/figure/Checkerboard_Small.png" alt="Motion Capture Room" style="zoom:23%;" /> | 20220209_StaticTarget_SmallCheckerBoard_9X12_30mm|                |
 | Handheld | <img src="doc/figure/Checkerboard_Big.png" alt="Motion Capture Room" style="zoom:23%;" /> | 20220215_DynamicTarget_BigCheckerBoard_7X10_68mm|                |
-| Handheld | <img src="doc/figure/allan.png" alt="Motion Capture Room" style="zoom:50%;" /> | **comming soon!!!!** |                |
+| Handheld | <img src="doc/figure/allan.png" alt="Motion Capture Room" style="zoom:50%;" /> |20220209_Static_IMUs_3h20mins  |                |
 
 
 ## Challenge Sequences
