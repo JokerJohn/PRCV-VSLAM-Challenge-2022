@@ -55,7 +55,7 @@ For more information, we can visit the following websits:
 
 ## [leaderboard](http://aiskyeye.com/leaderboard/)
 
-Sign up for an account and submit your results in the evaluation system, the real-time leaderboard will update your ranking.
+Sign up for an account and submit your results in the evaluation system, the live leaderboard will update your ranking.
 
 ![image-20220807203857498](README/image-20220807203857498.png)
 
