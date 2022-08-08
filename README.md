@@ -164,10 +164,6 @@ The picture below is a schematic illustration of the reference frames (red = x, 
 
 The results submitted by each team will be scored based on the completeness and ATE accuracy of the trajectories. All the results will be displayed in  the live leaderboard. Each trajectory will be scored based on the standard evaluation points, the accumulation of the scores of all these evaluation points is normalized to 200 points to get the final score of the sequence. Each evaluation point can get 0-10 points according to its accuracy.
 
-- **Will the organizer provide the calibration datasets of the IMU and camera?**
-
-Of course, we will provide the calibration data of IMU and cameras.
-
 - **Is the ground truth available?**
 
 We will provide some sample datasets along with their ground truth collected with the same sensor kit, but the ground truth for the challenge sequences is not available. However, you can submit your own results in the website evaluation system for evaluation.
