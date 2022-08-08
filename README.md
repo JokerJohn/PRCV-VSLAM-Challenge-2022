@@ -180,8 +180,10 @@ In order to prevent the problem of a team registering multiple accounts, this co
 
 ![image-20220805015051982](README/qr_code.jpg)
 
+# Publication
+
+*[ Jianhao Jiao, Hexiang Wei, Tianshuai Hu, Xiangcheng Hu, etc., Lujia Wang, Ming Liu, FusionPortable: A Multi-Sensor Campus-Scene Dataset for Evaluation of Localization and Mapping Accuracy on Diverse Platforms, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2022, Kyoto, Japan.](doc/FusionPortable_IROS_2022.pdf)*
+
 # Reference
 
-*[[1] Jianhao Jiao, Hexiang Wei, Tianshuai Hu, Xiangcheng Hu, etc., Lujia Wang, Ming Liu, FusionPortable: A Multi-Sensor Campus-Scene Dataset for Evaluation of Localization and Mapping Accuracy on Diverse Platforms, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2022, Kyoto, Japan.](doc/FusionPortable_IROS_2022.pdf))*
-
-[2] [HILTI Challenge](https://www.hilti-challenge.com/index.html).
+- [HILTI Challenge](https://www.hilti-challenge.com/index.html).
