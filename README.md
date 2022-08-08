@@ -26,17 +26,12 @@ For more information, we can visit the following websits:
 * This visual [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) benchmark is based on the FusionPortable dataset, which covers a variety of environments in [The Hong Kong University of Science and Technology](https://hkust.edu.hk) campus by utilizing multiple platforms for data collection. It provides a large range of difficult scenarios for Simultaneous Localization and Mapping (SLAM). 
 * All these sequences are characterized by structure-less areas and varying illumination conditions to best represent the real-world scenarios and pose great challenges to the SLAM algorithms which were verified in confined lab environments. 
 
-- [see here for detailed information of the challenge](doc/vslam_evaluation.md)
-- [see here for the IROS paper of FusionPortable dataset [1]](doc/FusionPortable_IROS_2022.pdf)
+- [detailed information of this SLAM challenge](doc/vslam_evaluation.md)
 
-# Dates
+# Latest News
 
-- [08.01]: Training, validation and testing data released
-- [08.07]: Calibration dataset released.
-- **[09.15]: Result submission deadline**
-- [10.16]: Challenge results released
-- [10.16]: Winner presents
-- **The deadline for the competition is 24:00 on September 15th, BEIJING time**
+- [08.07]: calibration dataset released.
+- [08.01]: challenge data sequences released.
 
 # Evaluation
 
@@ -82,7 +77,11 @@ Sign up for an account and submit your results in the evaluation system, the liv
   ....
   ```
 
-  * The text files should have the following contents:
+  * These text files should put in a folder of **"traj"**, and then compress as a *.zip file, such as "**traj.zip**"
+
+  <img src="README/image-20220808182432457.png" alt="image-20220808182432457" style="zoom:33%;" />
+
+  * The text files should have the following contents(TUM format):
 
   ```
   1644928761.036623716 0.0 0.0 0.0 0.0 0.0 0.0 1.0
@@ -181,8 +180,8 @@ In order to prevent the problem of a team registering multiple accounts, this co
 
 ![image-20220805015051982](README/qr_code.jpg)
 
-## Reference
+# Reference
 
-*[1] Jianhao Jiao, Hexiang Wei, Tianshuai Hu, Xiangcheng Hu, etc., Lujia Wang, Ming Liu, FusionPortable: A Multi-Sensor Campus-Scene Dataset for Evaluation of Localization and Mapping Accuracy on Diverse Platforms, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2022, Kyoto, Japan.*
+*[[1] Jianhao Jiao, Hexiang Wei, Tianshuai Hu, Xiangcheng Hu, etc., Lujia Wang, Ming Liu, FusionPortable: A Multi-Sensor Campus-Scene Dataset for Evaluation of Localization and Mapping Accuracy on Diverse Platforms, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2022, Kyoto, Japan.](doc/FusionPortable_IROS_2022.pdf))*
 
 [2] [HILTI Challenge](https://www.hilti-challenge.com/index.html).
