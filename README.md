@@ -29,6 +29,15 @@ For more information, we can visit the following websits:
 - [see here for detailed information of the challenge](doc/vslam_evaluation.md)
 - [see here for the IROS paper of FusionPortable dataset [1]](doc/FusionPortable_IROS_2022.pdf)
 
+# Dates
+
+- [08.01]: Training, validation and testing data released
+- [08.07]: Calibration dataset released.
+- **[09.15]: Result submission deadline**
+- [10.16]: Challenge results released
+- [10.16]: Winner presents
+- **The deadline for the competition is 24:00 on September 15th, BEIJING time**
+
 # Evaluation
 
 ## method
@@ -53,7 +62,7 @@ For more information, we can visit the following websits:
 
 <img src="README/error_example.png" alt="" style="zoom: 67%;" />
 
-## [leaderboard](http://aiskyeye.com/leaderboard/)
+## [Leaderboard](http://aiskyeye.com/leaderboard/)
 
 Sign up for an account and submit your results in the evaluation system, the live leaderboard will update your ranking.
 
@@ -117,9 +126,9 @@ rosbag decompress 20220216_garden_day.bag
 
 | Platform |                                                              | Sequence             | Compressed Bag |
 | -------- | ------------------------------------------------------------ | -------------------- | -------------- |
-| Handheld | <img src="doc/figure/Checkerboard_Small.png" alt="Motion Capture Room" style="zoom:23%;" /> | 20220209_StaticTarget_SmallCheckerBoard_9X12_30mm|                |
-| Handheld | <img src="doc/figure/Checkerboard_Big.png" alt="Motion Capture Room" style="zoom:23%;" /> | 20220215_DynamicTarget_BigCheckerBoard_7X10_68mm|                |
-| Handheld | <img src="doc/figure/allan.png" alt="Motion Capture Room" style="zoom:50%;" /> |20220209_Static_IMUs_3h20mins  |                |
+| Handheld | <img src="doc/figure/Checkerboard_Small.png" alt="Motion Capture Room" style="zoom:23%;" /> | 20220209_StaticTarget_SmallCheckerBoard_9X12_30mm| [6.7GB](http://prcv-download.natapp1.cc/compressed/20220209_StaticTarget_SmallCheckerBoard_9X12_30mm.bag) |
+| Handheld | <img src="doc/figure/Checkerboard_Big.png" alt="Motion Capture Room" style="zoom:23%;" /> | 20220215_DynamicTarget_BigCheckerBoard_7X10_68mm| [2.3GB](http://prcv-download.natapp1.cc/compressed/20220215_DynamicTarget_BigCheckerBoard_7X10_68mm.bag) |
+| Handheld | <img src="doc/figure/allan.png" alt="Motion Capture Room" style="zoom:50%;" /> |20220209_Static_IMUs_3h20mins  | [894MB](http://prcv-download.natapp1.cc/compressed/20220209_Static_IMUs_3h20mins.bag) |
 
 
 ## Challenge Sequences
