@@ -66,7 +66,7 @@ For more information, we can visit the following websits:
 
 Sign up for an account and submit your results in the evaluation system, the live leaderboard will update your ranking.
 
-![image-20220807203857498](README/image-20220807203857498.png)
+![image-20220808170219621](README/image-20220808170219621.png)
 
 # Submission Guidelines
 
