@@ -163,10 +163,6 @@ The picture below is a schematic illustration of the reference frames (red = x, 
 
 ![image-20220729210904964](README/frames.png)
 
-- **How are the results scored?**
-
-The results submitted by each team will be scored based on the completeness and ATE accuracy of the trajectories. All the results will be displayed in  the live leaderboard. Each trajectory will be scored based on the standard evaluation points, the accumulation of the scores of all these evaluation points is normalized to 200 points to get the final score of the sequence. Each evaluation point can get 0-10 points according to its accuracy.
-
 - **Is the ground truth available?**
 
 We will provide some sample datasets along with their ground truth collected with the same sensor kit, but the ground truth for the challenge sequences is not available. However, you can submit your own results in the website evaluation system for evaluation.**The ground truth for all challenge sequences will finally be announced at the PRCV WORKSHOP in October.**
@@ -179,6 +175,12 @@ We will provide some sample datasets along with their ground truth collected wit
 
 *[ Jianhao Jiao, Hexiang Wei, Tianshuai Hu, Xiangcheng Hu, etc., Lujia Wang, Ming Liu, FusionPortable: A Multi-Sensor Campus-Scene Dataset for Evaluation of Localization and Mapping Accuracy on Diverse Platforms, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2022, Kyoto, Japan.](doc/FusionPortable_IROS_2022.pdf)*
 
-# Reference
+# Acknowledgement
 
-- [HILTI Challenge](https://www.hilti-challenge.com/index.html).
+This challenge was supported by the **Wireless Technology**.
+
+We would also like to thank the **AISKYEYE Team** at Lab of Machine Learning and Data Mining of Tianjin University, for hosting our challenge at the PRCV2022 workshop. Futher, this challenge would not have been possible without the assistance of  Prof. Pengfei Zhu, Prof.Dingwen Zhang, Dr.Zhijian He and Dr.Jianhao Jiao for the great support in organizing the challenge, verifying the data and providing the [HILTI Challenge 2022](https://hilti-challenge.com/) as template for this challenge.
+
+# License
+
+All datasets and benchmarks on this page are copyright by us and published under the [Creative Commons license (CC BY-NC-SA 3.0)](http://creativecommons.org/licenses/by-nc-sa/3.0/), which is free for non-commercial use (including research).
