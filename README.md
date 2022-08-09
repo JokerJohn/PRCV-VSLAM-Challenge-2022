@@ -8,7 +8,7 @@ For more information, we can visit the following websits:
 
 - [homepage of FusionPortable-VSLAM Challenge](http://aiskyeye.com/challenge-2022/visual-slam/)
 - [homepage of PRCV Aerial-Ground Intelligent Unmanned System Environment Perception Challenge](http://aiskyeye.com/)
-- [Introduction of PRCV challenge on Wexin Official Accounts Platform](https://mp.weixin.qq.com/s/p1xEpLVKwcI0p37hxe3c7w)
+- [Introduction of PRCV Challenge on Wexin Official Accounts Platform](https://mp.weixin.qq.com/s/p1xEpLVKwcI0p37hxe3c7w)
 
 # Introduction
 
@@ -30,7 +30,7 @@ For more information, we can visit the following websits:
 
 # Latest News
 
-- [08.09]:the ground thruth of 20220216_garden_day released!
+- [08.09]: the ground thruth of 20220216_garden_day released!
 - [08.07]: calibration dataset released.
 - [08.01]: challenge data sequences released.
 
@@ -62,7 +62,7 @@ For more information, we can visit the following websits:
 
 Sign up for an account and submit your results in the evaluation system, the live leaderboard will update your ranking.
 
-![image-20220808170219621](README/image-20220808170219621.png)
+![image-20220810030116770](README/image-20220810030116770.png)
 
 # Submission Guidelines
 
@@ -94,6 +94,8 @@ Sign up for an account and submit your results in the evaluation system, the liv
   * The poses should specify the poses of the body IMU in the world frame. If the estimated poses are in the frame of other sensors, one should transform these poses into the world frame of the body IMU as `T_bodyw_body = T_body_sensor * T_sensorw_sensor * T_body_sensor^(-1);`.
 
 * Do not publicly release your trajectory estimates, as we might re-use some of the datasets for future competitions.
+
+* **A team can only register one account.** **Quota can only be obtained by joining the WeChat group**. In order to prevent the problem of a team registering multiple accounts, this competition requires **all members** of the participating team to **join the WeChat group**. And **the old account cannot be used, you need to re-register a new account**.
 
 # Download
 
@@ -167,13 +169,18 @@ The picture below is a schematic illustration of the reference frames (red = x, 
 
 We will provide some sample datasets along with their ground truth collected with the same sensor kit, but the ground truth for the challenge sequences is not available. However, you can submit your own results in the website evaluation system for evaluation.**The ground truth for all challenge sequences will finally be announced at the PRCV WORKSHOP in October.**
 
-# Notice
-
-**A team can only register one account.** **Quota can only be obtained by joining the WeChat group**. In order to prevent the problem of a team registering multiple accounts, this competition requires **all members** of the participating team to **join the WeChat group**. And **the old account cannot be used, you need to re-register a new account**.
-
 # Publication
 
-*[ Jianhao Jiao, Hexiang Wei, Tianshuai Hu, Xiangcheng Hu, etc., Lujia Wang, Ming Liu, FusionPortable: A Multi-Sensor Campus-Scene Dataset for Evaluation of Localization and Mapping Accuracy on Diverse Platforms, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2022, Kyoto, Japan.](doc/FusionPortable_IROS_2022.pdf)*
+When using this work in an academic context, please cite the following [publication](doc/FusionPortable_IROS_2022.pdf):
+
+```
+@article{,
+  author    = {Jianhao Jiao and Hexiang Wei and Tianshuai Hu and Xiangcheng Hu and Yilong Zhu and Zhijian He and Jin Wu and Jingwen Yu and Xupeng Xie and Huaiyang Huang and Ruoyu Geng and Lujia Wang and Ming Liu},
+  title     = {FusionPortable: A Multi-Sensor Campus-Scene Dataset for Evaluation of Localization and Mapping Accuracy on Diverse Platforms},
+  booktitle = {2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year      = {2022}
+}
+```
 
 # Acknowledgement
 
