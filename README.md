@@ -169,7 +169,7 @@ The results submitted by each team will be scored based on the completeness and 
 
 - **Is the ground truth available?**
 
-We will provide some sample datasets along with their ground truth collected with the same sensor kit, but the ground truth for the challenge sequences is not available. However, you can submit your own results in the website evaluation system for evaluation.
+We will provide some sample datasets along with their ground truth collected with the same sensor kit, but the ground truth for the challenge sequences is not available. However, you can submit your own results in the website evaluation system for evaluation.**The ground truth for all challenge sequences will finally be announced at the PRCV WORKSHOP in October.**
 
 # Notice
 
