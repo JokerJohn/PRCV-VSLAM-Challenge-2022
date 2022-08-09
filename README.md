@@ -97,7 +97,7 @@ Sign up for an account and submit your results in the evaluation system, the liv
 
 # Download
 
-All data download addresses can be found in this directory ：[CLICK HERE](http://443r4f2626.goho.co:8888/PRCV2022_challenge_vslam_data/)!!!!!!!!!
+All data download addresses can be found in this directory ：[CLICK HERE](http://443r4f2626.goho.co:8888/PRCV2022_challenge_vslam_data/)
 
 We provide the compressed rosbag data, remember to execute the following command to decompress them.
 
