@@ -30,6 +30,7 @@ For more information, we can visit the following websits:
 
 # Latest News
 
+- [08.09]:the ground thruth of 20220216_garden_day released!
 - [08.07]: calibration dataset released.
 - [08.01]: challenge data sequences released.
 
@@ -117,9 +118,9 @@ rosbag decompress 20220216_garden_day.bag
 
 ## Test Sequences
 
-| Platform |                                                              | Sequence            | Compressed Bag                                               |
-| -------- | ------------------------------------------------------------ | ------------------- | ------------------------------------------------------------ |
-| Handheld | <img src="doc/figure/garden.png" alt="Garden" style="zoom:25%;" /> | 20220216_garden_day | [20.4GB](http://prcv-download.natapp1.cc/compressed/20220216_garden_day.bag) |
+| Platform |                                                              | Sequence            | Compressed Bag                                               | Ground Truth                                                 |
+| -------- | ------------------------------------------------------------ | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Handheld | <img src="doc/figure/garden.png" alt="Garden" style="zoom:25%;" /> | 20220216_garden_day | [20.4GB](http://prcv-download.natapp1.cc/sample/20220216_garden_day.bag) | [20220216_garden_day.txt](http://prcv-download.natapp1.cc/sample/20220216_garden_day.txt) |
 
 ## Calibration Sequences
 
