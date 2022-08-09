@@ -128,9 +128,9 @@ rosbag decompress 20220216_garden_day.bag
 
 | Platform |                                                              | Sequence             | Compressed Bag |
 | -------- | ------------------------------------------------------------ | -------------------- | -------------- |
-| Handheld | <img src="doc/figure/Checkerboard_Small.png" alt="Motion Capture Room" style="zoom:23%;" /> | 20220209_StaticTarget_SmallCheckerBoard_9X12_30mm| [6.7GB](http://prcv-download.natapp1.cc/compressed/20220209_StaticTarget_SmallCheckerBoard_9X12_30mm.bag) |
-| Handheld | <img src="doc/figure/Checkerboard_Big.png" alt="Motion Capture Room" style="zoom:23%;" /> | 20220215_DynamicTarget_BigCheckerBoard_7X10_68mm| [2.3GB](http://prcv-download.natapp1.cc/compressed/20220215_DynamicTarget_BigCheckerBoard_7X10_68mm.bag) |
-| Handheld | <img src="doc/figure/allan.png" alt="Motion Capture Room" style="zoom:50%;" /> |20220209_Static_IMUs_3h20mins  | [894MB](http://prcv-download.natapp1.cc/compressed/20220209_Static_IMUs_3h20mins.bag) |
+| Handheld | <img src="doc/figure/Checkerboard_Small.png" alt="Motion Capture Room" style="zoom:23%;" /> | 20220209_StaticTarget_SmallCheckerBoard_9X12_30mm| [6.7GB](http://443r4f2626.goho.co:8888/PRCV2022_challenge_vslam_data/compressed/20220209_StaticTarget_SmallCheckerBoard_9X12_30mm.bag) |
+| Handheld | <img src="doc/figure/Checkerboard_Big.png" alt="Motion Capture Room" style="zoom:23%;" /> | 20220215_DynamicTarget_BigCheckerBoard_7X10_68mm| [2.3GB](http://443r4f2626.goho.co:8888/PRCV2022_challenge_vslam_data/compressed/20220215_DynamicTarget_BigCheckerBoard_7X10_68mm.bag) |
+| Handheld | <img src="doc/figure/allan.png" alt="Motion Capture Room" style="zoom:50%;" /> |20220209_Static_IMUs_3h20mins  | [894MB](http://443r4f2626.goho.co:8888/PRCV2022_challenge_vslam_data/compressed/20220209_Static_IMUs_3h20mins.bag) |
 
 
 ## Challenge Sequences
