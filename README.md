@@ -15,7 +15,8 @@
 
 ## Introduction
 
-<img src="doc/figure/multivehicle.png" alt="multivehicle" style="zoom: 67%;" />
+- This visual [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) benchmark is based on the FusionPortable dataset, which covers a variety of environments in [The Hong Kong University of Science and Technology](https://hkust.edu.hk) campus by utilizing **multiple platforms** for data collection. It provides a large range of difficult scenarios for Simultaneous Localization and Mapping (SLAM). 
+- All these sequences are characterized by **structure-less areas** and **varying illumination conditions** to best represent the real-world scenarios and pose great challenges to the SLAM algorithms which were verified in confined lab environments. 
 
 | Sensor                      | Characteristics                                 |
 | --------------------------- | ----------------------------------------------- |
@@ -26,8 +27,7 @@
 | GPS                         | ZED-F9P RTK-GPS                                 |
 | Ground Truth                | Leica BLK 360                                   |
 
-* This visual [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) benchmark is based on the FusionPortable dataset, which covers a variety of environments in [The Hong Kong University of Science and Technology](https://hkust.edu.hk) campus by utilizing multiple platforms for data collection. It provides a large range of difficult scenarios for Simultaneous Localization and Mapping (SLAM). 
-* All these sequences are characterized by structure-less areas and varying illumination conditions to best represent the real-world scenarios and pose great challenges to the SLAM algorithms which were verified in confined lab environments. 
+<img src="doc/figure/multivehicle.png" alt="multivehicle" style="zoom: 67%;" />
 
 ## Latest News
 
