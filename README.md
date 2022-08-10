@@ -32,7 +32,7 @@
 ## Latest News
 
 - [08.10]: the evaluation codes released!
-- [08.09]: the ground thruth of 20220216_garden_day released!
+- [08.09]: the ground thruth of **20220216_garden_day** released!
 - [08.07]: calibration dataset released.
 - [08.01]: challenge data sequences released.
 
