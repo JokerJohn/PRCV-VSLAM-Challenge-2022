@@ -9,7 +9,7 @@
    | 🧱 <a href="https://mp.weixin.qq.com/s/p1xEpLVKwcI0p37hxe3c7w">VisDrone</a>
    | 📧 <a href="mailto:xhubd@connect.ust.hk">Email</a>
    | 📝 <a href="doc/vslam_evaluation.md">Docs</a>
-   | 📃 <a href="doc/vslam_evaluation.md">Paper</a> 
+   | 📃 <a href="doc/FusionPortable_IROS_2022.pdf">Paper</a> 
    <br>
 </p>
 
