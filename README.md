@@ -25,7 +25,7 @@
 | Event Camera * 2            | DAVIS346, resolution: 346 × 240，2 built-in imu |
 | IMU (body_imu)              | STIM300                                         |
 | GPS                         | ZED-F9P RTK-GPS                                 |
-| Ground Truth                | Leica BLK360 scanner, 3.6w points per second    |
+| Ground Truth                | Leica BLK360 Imaging Laser Scanner              |
 
 <img src="doc/figure/multivehicle.png" alt="multivehicle" style="zoom: 67%;" />
 
