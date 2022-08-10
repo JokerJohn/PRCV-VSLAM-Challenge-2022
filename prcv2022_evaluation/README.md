@@ -1,6 +1,9 @@
 # Evaluation of estimated trajectories for PRCV 2022 
 
+<img src="README/image-20220811013057509.png" alt="image-20220811013057509" style="zoom:33%;" />
+
 ### Installation
+
 The package is written in python and tested in Ubuntu 16.04 and 18.04.
 Both `python2` and `python3` are supported.
 
