@@ -18,14 +18,14 @@
 - This visual [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) benchmark is based on the FusionPortable dataset, which covers a variety of environments in [The Hong Kong University of Science and Technology](https://hkust.edu.hk) campus by utilizing **multiple platforms** for data collection. It provides a large range of difficult scenarios for Simultaneous Localization and Mapping (SLAM). 
 - All these sequences are characterized by **structure-less areas** and **varying illumination conditions** to best represent the real-world scenarios and pose great challenges to the SLAM algorithms which were verified in confined lab environments. 
 
-| Sensor                      | Characteristics                                     |
-| --------------------------- | --------------------------------------------------- |
-| 3D LiDAR (**not provided**) | Ouster OS1-128, 128 channels, 120m range            |
-| Frame Camera * 2            | FILR BFS-U3-31S4C， resolution: 1024 × 768          |
-| Event Camera * 2            | DAVIS346, resolution: 346 × 240，2 built-in imu     |
-| IMU (body_imu)              | STIM300                                             |
-| GPS                         | ZED-F9P RTK-GPS                                     |
-| Ground Truth                | Leica BLK360 LiDAR scanner, 36000 points per second |
+| Sensor                      | Characteristics                                 |
+| --------------------------- | ----------------------------------------------- |
+| 3D LiDAR (**not provided**) | Ouster OS1-128, 128 channels, 120m range        |
+| Frame Camera * 2            | FILR BFS-U3-31S4C， resolution: 1024 × 768      |
+| Event Camera * 2            | DAVIS346, resolution: 346 × 240，2 built-in imu |
+| IMU (body_imu)              | STIM300                                         |
+| GPS                         | ZED-F9P RTK-GPS                                 |
+| Ground Truth                | Leica BLK360 scanner, 3.6w points per second    |
 
 <img src="doc/figure/multivehicle.png" alt="multivehicle" style="zoom: 67%;" />
 
