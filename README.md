@@ -71,10 +71,10 @@ Sign up for an account and submit your results in the evaluation system, the liv
   * Please upload a .zip file consisting of a list of text files named as the *sequence name* shown as follows:
 
   ```
-  20220215_canteen_night.txt
-  20220215_garden_night.txt
-  20220219_MCR_slow_00.txt
-  20220226_campus_road_day.txt
+  traj/20220215_canteen_night.txt
+  traj/20220215_garden_night.txt
+  traj/20220219_MCR_slow_00.txt
+  traj/20220226_campus_road_day.txt
   ....
   ```
 
