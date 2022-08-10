@@ -186,7 +186,9 @@ When using this work in an academic context, please cite the following [publicat
 
 This challenge was supported by the **[Wireless Technology](http://www.vlg.com.cn/index.aspx)**.
 
-We would also like to thank the **AISKYEYE Team** at Lab of Machine Learning and Data Mining of Tianjin University, for hosting our challenge at the PRCV2022 workshop. Futher, this challenge would not have been possible without the assistance of Prof.Ming Liu, Prof.Lujia Wang, Prof.Pengfei Zhu, Prof.Dingwen Zhang, Dr.Zhijian He and Dr.Jianhao Jiao for the great support in organizing the challenge, verifying the data and providing the [HILTI Challenge 2022](https://hilti-challenge.com/) as template for this challenge. We would also like to thank Prof.Jack Chin Pang CHENG and his team for the support of dense mapping device.
+We would like to thank the **AISKYEYE Team** at Lab of Machine Learning and Data Mining of Tianjin University, for hosting our challenge at the PRCV2022 workshop. Futher, this challenge would not have been possible without the assistance of Prof.Ming Liu, Prof.Lujia Wang, Prof.Pengfei Zhu, Prof.Dingwen Zhang, Dr.Zhijian He and Dr.Jianhao Jiao for the great support in organizing the challenge, verifying the data and providing the [HILTI Challenge 2022](https://hilti-challenge.com/) as template for this challenge. 
+
+We would also like to thank Prof.Jack Chin Pang CHENG and his team for the support of dense mapping device.
 
 # License
 
