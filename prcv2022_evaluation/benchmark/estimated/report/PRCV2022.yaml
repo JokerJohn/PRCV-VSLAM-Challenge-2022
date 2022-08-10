@@ -1,0 +1,14 @@
+Datasets:
+  20220216_garden_day:
+    platform: handheld
+    label: 20220216\_Garden\_Day
+    date: 20220216
+    title: 20220216\_Garden\_Day
+    
+Algorithms:
+  estimated:
+    fn: estimated
+    label: Estimated
+
+RelDistances: []   # used to specify the sub-trajectory lengths in the relative error
+RelDistancePercentages: []
