@@ -184,6 +184,10 @@ When using this work in an academic context, please cite the following [publicat
 }
 ```
 
+# Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=JokerJohn/PRCV-VSLAM-Challenge-2022&type=Date-16604675791593.svg+xml)](https://star-history.com/#JokerJohn/PRCV-VSLAM-Challenge-2022&Date)
+
 ## Acknowledgement
 
 This challenge was supported by the **[Wireless Technology](http://www.vlg.com.cn/index.aspx)**.
