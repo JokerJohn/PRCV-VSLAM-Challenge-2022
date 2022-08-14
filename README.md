@@ -13,7 +13,7 @@
    <br>
 </p>
 
-## Introduction
+# Introduction
 
 - This visual [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) benchmark is based on the FusionPortable dataset, which covers a variety of environments in [The Hong Kong University of Science and Technology](https://hkust.edu.hk) campus by utilizing **multiple platforms** for data collection. It provides a large range of difficult scenarios for Simultaneous Localization and Mapping (SLAM). 
 - All these sequences are characterized by **structure-less areas** and **varying illumination conditions** to best represent the real-world scenarios and pose great challenges to the SLAM algorithms which were verified in confined lab environments. 
@@ -29,16 +29,16 @@
 
 <img src="doc/figure/multivehicle.png" alt="multivehicle" style="zoom: 67%;" />
 
-## Latest News
+# Latest News
 
 - [08.10]: the evaluation codes released!
 - [08.09]: the ground thruth of **20220216_garden_day** released!
 - [08.07]: calibration dataset released.
 - [08.01]: challenge data sequences released.
 
-## Evaluation
+# Evaluation
 
-### method
+## method
 
 * The submission will be ranked based on the **completeness** and **frequency** of the trajectory as well as on the **position accuracy (ATE)**. The score is based on the ATE of individual points on the trajectory. Points with the error smaller than a distance threshold are added to your final score. This evaluation scheme is inspired by [HILTI Challenge](https://www.hilti-challenge.com/index.html).
 
@@ -60,7 +60,7 @@
 
 <img src="README/error_example.png" alt="" style="zoom: 67%;" />
 
-### [Leaderboard](http://aiskyeye.com/leaderboard/)
+## [Leaderboard](http://aiskyeye.com/leaderboard/)
 
 Sign up for an account and submit your results in the evaluation system, the live leaderboard will update your ranking.
 
@@ -99,7 +99,7 @@ Sign up for an account and submit your results in the evaluation system, the liv
 
 * **A team can only register one account.** **Quota can only be obtained by joining the WeChat group**. In order to prevent the problem of a team registering multiple accounts, this competition requires **all members** of the participating team to **join the WeChat group**. And **the old account cannot be used, you need to re-register a new account**.
 
-## Download
+# Download
 
 All data download addresses can be found in this directory ：[📁](http://443r4f2626.goho.co:8888/PRCV2022_challenge_vslam_data/)
 
@@ -110,7 +110,7 @@ We provide the compressed rosbag data, remember to execute the following command
 rosbag decompress 20220216_garden_day.bag
 ```
 
-### Calibration files
+## Calibration files
 
 | Yaml Files      | Describtion                                             | Link                                                         |
 | --------------- | ------------------------------------------------------- | ------------------------------------------------------------ |
@@ -122,13 +122,13 @@ rosbag decompress 20220216_garden_day.bag
 | frame_cam00     | extrinsics and intrinsics of the left flir camera       | [frame_cam00.yaml](http://443r4f2626.goho.co:8888/PRCV2022_challenge_vslam_data/calib/frame_cam00.yaml) |
 | frame_cam01     | extrinsics and intrinsics of the right flir camera      | [frame_cam01.yaml](http://443r4f2626.goho.co:8888/PRCV2022_challenge_vslam_data/calib/frame_cam01.yaml) |
 
-### Test Sequences
+## Test Sequences
 
 | Platform |                                                              | Sequence            | Compressed Bag                                               | Ground Truth                                                 |
 | -------- | ------------------------------------------------------------ | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Handheld | <img src="doc/figure/garden.png" alt="Garden" style="zoom:25%;" /> | 20220216_garden_day | [20.4GB](http://443r4f2626.goho.co:8888/PRCV2022_challenge_vslam_data/sample/20220216_garden_day.bag) | [20220216_garden_day.txt](http://443r4f2626.goho.co:8888/PRCV2022_challenge_vslam_data/sample/20220216_garden_day.txt) |
 
-### Calibration Sequences
+## Calibration Sequences
 
 | Platform |                                                              | Sequence             | Compressed Bag |
 | -------- | ------------------------------------------------------------ | -------------------- | -------------- |
@@ -137,7 +137,7 @@ rosbag decompress 20220216_garden_day.bag
 | Handheld | <img src="doc/figure/allan.png" alt="Motion Capture Room" style="zoom:50%;" /> |20220209_Static_IMUs_3h20mins  | [894MB](http://443r4f2626.goho.co:8888/PRCV2022_challenge_vslam_data/compressed/20220209_Static_IMUs_3h20mins.bag) |
 
 
-### Challenge Sequences
+## Challenge Sequences
 
 | Platform        |                                                              | Sequence               | Compressed Bag                                               |
 | --------------- | ------------------------------------------------------------ | ---------------------- | ------------------------------------------------------------ |
@@ -159,7 +159,7 @@ rosbag decompress 20220216_garden_day.bag
 |                 |                                                              | 20220219_MCR_fast_01   | [8.5GB](http://443r4f2626.goho.co:8888/PRCV2022_challenge_vslam_data/compressed/20220219_MCR_fast_01.bag) |
 | Apollo Vehicle  | <img src="doc/figure/campus_road.png" alt="Campus Road" style="zoom:19%;" /> | 20220226_campus_road   | [72.3GB](http://443r4f2626.goho.co:8888/PRCV2022_challenge_vslam_data/compressed/20220226_campus_road_day.bag) |
 
-## FAQ
+# FAQ
 
 - **How are the frames defined on the sensor setup?**
 
@@ -171,7 +171,11 @@ The picture below is a schematic illustration of the reference frames (red = x, 
 
 We will provide some sample datasets along with their ground truth collected with the same sensor kit, but the ground truth for the challenge sequences is not available. However, you can submit your own results in the website evaluation system for evaluation.**The ground truth for all challenge sequences will finally be announced at the PRCV WORKSHOP in October.**
 
-## Publication
+# Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=JokerJohn/PRCV-VSLAM-Challenge-2022&type=Date-16604675791593.svg+xml)](https://star-history.com/#JokerJohn/PRCV-VSLAM-Challenge-2022&Date)
+
+# Publication
 
 When using this work in an academic context, please cite the following [publication](doc/FusionPortable_IROS_2022.pdf):
 
@@ -184,11 +188,7 @@ When using this work in an academic context, please cite the following [publicat
 }
 ```
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=JokerJohn/PRCV-VSLAM-Challenge-2022&type=Date-16604675791593.svg+xml)](https://star-history.com/#JokerJohn/PRCV-VSLAM-Challenge-2022&Date)
-
-## Acknowledgement
+# Acknowledgement
 
 This challenge was supported by the **[Wireless Technology](http://www.vlg.com.cn/index.aspx)**.
 
@@ -196,6 +196,6 @@ We would like to thank the **AISKYEYE Team** at Lab of Machine Learning and Data
 
 We would also like to thank Prof.Jack Chin Pang CHENG and his team for the support of dense mapping device.
 
-## License
+# License
 
 All datasets and benchmarks on this page are copyright by us and published under the [Creative Commons license (CC BY-NC-SA 3.0)](http://creativecommons.org/licenses/by-nc-sa/3.0/), which is free for non-commercial use (including research).
