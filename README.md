@@ -1,7 +1,4 @@
 ![image](README/prcv.jpg)
-
-# PRCV 2022: The FusionPortable-VSLAM Challenge
-
 <p align="center">
    ⏬ <a href="https://ram-lab.com/file/site/multi-sensor-dataset/" target="_blank">Dataset</a> 
    | 🪧 <a href="http://aiskyeye.com/challenge-2022/visual-slam/">Challenge</a>
@@ -12,6 +9,8 @@
    | 📃 <a href="doc/FusionPortable_IROS_2022.pdf">Paper</a> 
    <br>
 </p>
+# PRCV 2022: The FusionPortable-VSLAM Challenge
+[toc]
 
 # Introduction
 
